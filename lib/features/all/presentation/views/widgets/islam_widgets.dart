@@ -27,6 +27,7 @@ class IsalmWidgets extends StatelessWidget {
             border:
                 Border.all(color: Colors.black.withOpacity(0.32), width: 2)),
         width: MediaQuery.of(context).size.width / 2,
+        padding: EdgeInsets.all(1),
         height: 10,
         child: Padding(
           padding: const EdgeInsets.all(14),
